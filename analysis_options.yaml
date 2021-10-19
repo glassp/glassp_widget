@@ -12,5 +12,5 @@ analyzer:
     - lib/gen/**
     - src/gen/**
     - gen/**
-    - **/*.gen.dart
-    - **/*.generated.dart
+    - "**/*.gen.dart"
+    - "**/*.generated.dart"
