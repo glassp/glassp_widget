@@ -1,0 +1,24 @@
+# TODO adjust
+name: flutter_default_setup
+description: Default settings for every flutter project
+version: 0.0.1
+publish_to: 'None'
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  effective_dart: ^1.3.2
+  
+#executables:
+# name-of-executable: Dart-script-from-bin
+  
+#flutter:
+#  assets:
+#    - assets/my_icon.png
+#    - assets/background.png

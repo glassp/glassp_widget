@@ -1,0 +1,19 @@
+image:
+  file: .gitpod.Dockerfile
+github:
+  prebuilds:
+    master: true
+    branches: false
+    pullRequests: true
+    pullRequestsFromForks: false
+    addChecks: true
+    addComment: true
+    addBadge: true
+    addLabel: true
+
+tasks:
+  - name: Check installation
+    command: flutter doctor
+
+  - name: Fetch dependencies 
+    command: flutter pub get
